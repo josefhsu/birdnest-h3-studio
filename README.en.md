@@ -4,6 +4,8 @@
 
 Birdnest H3 Studio is a browser-based workspace for MiniMax H3. Creators assemble prompts and reference assets, and an administrator connects a Google Colab GPU to run jobs with ComfyUI and H3 Toybox.
 
+![Birdnest H3 Studio workspace with a sample prompt, video settings and two reference cards](docs/studio-ui.jpg)
+
 ## Features
 
 - **Video, images and voice** with text-to-video, first/last-frame conditioning and image, video or audio references.
