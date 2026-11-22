@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="zh-Hant" data-style="neon" data-palette="night">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#101321"><meta name="description" content="鳥巢H3大師，MiniMax H3 影音創作工作室。">
+<title>__SECTION_TITLE__｜鳥巢H3大師</title>
+<link rel="icon" href="/favicon.svg"><link rel="stylesheet" href="/studio.css"><script src="/themes.js" defer></script>
+</head><body data-workspace="__WORKSPACE__" data-active-section="__ACTIVE_SECTION__" data-draft-scope="__DRAFT_SCOPE__" __CREATOR_VIDEO_SETTINGS__>
+<a class="skip-link" href="#workspace-title">跳到頁面內容</a>
+<div class="ambient" aria-hidden="true"><i></i><i></i></div>
+<div class="shell">
+<aside class="sidebar" aria-label="主導覽">
+<a href="__WORKSPACE_BASE__/create" class="brand-mark" aria-label="鳥巢H3大師首頁"><svg viewBox="0 0 40 40" fill="none"><path d="M6 12h28L6 28h28M6 20h28" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/></svg></a>
+<nav class="nav" aria-label="工作室頁面"><a href="__WORKSPACE_BASE__/create" data-section="create" aria-label="創作工作台"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="5" width="15" height="14" rx="3"/><path d="m18 10 4-3v10l-4-3M8 9l5 3-5 3z"/></svg><span>創作</span></a><!-- admin-only --><a href="__WORKSPACE_BASE__/compute" data-section="compute" aria-label="運算設定"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="6" y="6" width="12" height="12" rx="2"/><path d="M9 2v4m6-4v4M9 18v4m6-4v4M2 9h4m-4 6h4m12-6h4m-4 6h4M10 10h4v4h-4z"/></svg><span>運算</span></a><!-- /admin-only --><a href="__WORKSPACE_BASE__/storage" data-section="storage" aria-label="雲端儲存"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 18a4 4 0 1 1 0-8 7 7 0 0 1 14-1 4.5 4.5 0 0 1 0 9H5Z"/></svg><span>儲存</span></a><a href="__WORKSPACE_BASE__/history" data-section="history" aria-label="工作記錄"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 5h16v15H4zM8 2v6m8-6v6M8 12h8m-8 4h5"/></svg><span>記錄</span></a><!-- admin-only -->
+<a href="__WORKSPACE_BASE__/queue" data-section="queue" aria-label="生成排隊"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M3 5h12M3 10h12M3 15h8M17 13l4 3-4 3z"/></svg><span>排隊</span></a><!-- /admin-only --></nav>
+<div class="rail-caption">IMAGINE · CREATE · BEYOND</div><div class="avatar" title="鳥巢的私人工作室">鳥</div>
+</aside>
+<div class="content" id="overview">
+<header class="topbar"><a href="__WORKSPACE_BASE__/create" class="wordmark"><strong>鳥巢H3大師<span>®</span></strong><div>BIRDNEST<small>COLAB H3 STUDIO</small></div></a>__RABBIT_SIGN__<div class="top-actions">__SCOPE_ACTION__ __CREATOR_LOGOUT__<button id="theme-toggle" class="theme-toggle" type="button" aria-expanded="false" aria-controls="theme-panel"><span class="theme-dots"><i></i><i></i><i></i></span><span>風格與配色</span><span>⌄</span></button></div></header>
+<main class="main">
+<section class="theme-panel panel" id="theme-panel" hidden aria-label="風格與配色設定"><div class="theme-panel-head"><div><span class="step-num">MAKE IT YOURS</span><h2>換個風格，換種靈感。</h2></div><button class="icon-button" id="theme-close" type="button" aria-label="關閉風格面板">×</button></div><div class="theme-controls"><div><h3>視覺語言 <span>STYLE</span></h3><div id="style-options" class="style-options" role="group" aria-label="視覺風格"></div></div><div><h3>色彩組合 <span>PALETTE</span></h3><div id="palette-options" class="palette-options" role="group" aria-label="色彩組合"></div></div></div><div class="theme-bottom"><label><input type="checkbox" id="theme-random-load">每次開啟換一組配色</label><button type="button" class="subtle-button" id="theme-reset">恢復預設</button><button type="button" id="theme-shuffle" class="shuffle-button">✦ 隨機風格組合</button></div><p class="sr-only" id="theme-announcement" role="status" aria-live="polite"></p></section>
+<section class="masthead" data-show-on="create" aria-label="鳥巢H3大師"><div class="hero-copy"><div class="eyebrow"><span class="live-dot"></span>YOUR PRIVATE CREATIVE FREQUENCY</div><h1>靈感有聲，<br><em>想像成影。</em></h1><div class="hero-baseline"><p>鳥巢的 AI 影音創作室</p><span class="hero-separator"></span><span>VIDEO / IMAGE / VOICE</span></div></div><div class="hero-art" aria-hidden="true"><canvas id="hero-aurora"></canvas></div></section>
+<div class="workspace-bar"><div><h2 id="workspace-title" tabindex="-1">__SECTION_TITLE__</h2></div><span class="current-look" id="current-look">霓虹剪輯室 / 深海電光</span><button class="icon-button" id="quick-shuffle" type="button" aria-label="隨機切換視覺風格">✦</button></div>
+<div class="workspace-layout"><div class="primary-column"><section class="panel" id="studio" data-show-on="create"><div class="panel-title"><div><span class="step-num">01 / CREATE</span><h3>把想像寫進鏡頭。</h3><p>編輯文字、選擇功能與素材，加入工作清單。</p></div></div>
+          <div class="creator-tabs" role="group" aria-label="選擇創作功能"><button type="button" data-kind="video" aria-pressed="true"><span class="mode-icon">▶</span>影片<span class="mode-en">VIDEO</span></button><button type="button" data-kind="image" aria-pressed="false"><span class="mode-icon">▧</span>圖片<span class="mode-en">IMAGE</span></button><button type="button" data-kind="tts" aria-pressed="false"><span class="mode-icon">≋</span>配音<span class="mode-en">VOICE</span></button></div>
+          <form id="job-form">
+            <fieldset id="script-lab" class="script-lab">
+              <legend>劇本靈感庫</legend>
+              <div class="script-lab-controls">
+                <select id="script-lab-category" aria-label="選擇靈感庫">
+                  <option value="">選擇靈感庫</option>
+                  __SCRIPT_LAB_OPTIONS__
+                </select>
+                <select id="script-lab-item" aria-label="選擇靈感條目" disabled><option value="">選擇條目</option></select>
+                <button id="script-lab-insert" class="subtle-button" type="button" disabled>插入提示詞</button>
+              </div>
+              <div id="script-lab-preview" class="script-lab-preview" hidden>
+                <img id="script-lab-image" alt="" width="64" height="64" hidden>
+                <p id="script-lab-text"></p>
+              </div>
+              <p id="script-lab-status" class="script-lab-status" role="status"></p>
+              <!-- admin-only --><button id="script-lab-manage" class="script-lab-manage" type="button" aria-haspopup="dialog">管理自訂靈感</button><!-- /admin-only -->
+            </fieldset>
+            <label class="field-label" for="job-prompt">創作描述 <span>必填</span></label><div class="prompt-compose"><textarea aria-autocomplete="list" aria-controls="reference-menu" aria-describedby="prompt-language-help" id="job-prompt" maxlength="12000" rows="6" placeholder="描述人物、場景、鏡頭或台詞……" required></textarea><ul id="reference-menu" class="reference-menu" role="listbox" aria-label="可插入的素材標籤" hidden></ul></div>
+            <p class="file-help" id="prompt-language-help">可用繁中編輯。送出時，描述轉英文、中文台詞轉簡中，英文台詞照原文。</p>
+            <div class="creator-grid"><label id="mode-wrap">影片模式<select id="job-mode"><option value="ref">參考素材</option><option value="frames">首尾格</option><option value="text">純文字</option></select></label><label id="aspect-wrap">畫面比例<select id="job-aspect"><option value="16:9">16:9 橫式</option><option value="9:16">9:16 直式</option><option value="1:1">1:1 正方形</option><option value="4:3">4:3</option><option value="3:4">3:4</option><option value="21:9">21:9 超寬</option></select></label><label id="resolution-wrap">解析度<select id="job-resolution"><option value="480P">480P</option><option value="720P">720P</option><option value="1080P">1080P</option></select></label><label id="size-wrap" hidden>圖片尺寸<select id="job-size"><option value="2K">2K</option><option value="1.6K">1.6K</option><option value="1K">1K</option><option value="2.7K">2.7K</option></select></label><label id="seconds-wrap">長度（秒）<input id="job-seconds" type="number" min="2" max="15" step="1" value="5"></label><label id="upscale-wrap">NVIDIA 影片放大<select id="job-upscale" aria-describedby="upscale-limit"><option value="1">原尺寸</option><option value="1.5">1.5×</option><option value="2">2×</option><option value="3">3×</option><option value="4">4×</option></select><small id="upscale-limit">上限 4K · 維持原比例</small></label>
+              <!-- admin-only --><label id="lora-wrap">影片生成設定<select id="job-lora" aria-describedby="lora-note"><option value="">標準（Turbo）</option><option value="extreme-realism-v3">色色增強（較慢）</option></select><small id="lora-note">色色增強使用 Extreme Realism V3 LoRA，18 步，停用 Turbo。</small></label><!-- /admin-only -->
+            </div>
+            <div id="reference-panel">
+              <div class="reference-heading"><label class="field-label" for="job-files" id="files-label">參考素材</label><button class="subtle-button" type="button" id="insert-reference-tags" hidden>插入所有標籤</button></div>
+              <div id="reference-drop" class="reference-drop"><strong>拖放素材到這裡</strong><span>圖片、影片、音訊會自動分類</span><input id="job-files" type="file" multiple aria-label="選擇參考素材"><button type="button" id="pick-references" class="secondary">選擇檔案</button></div>
+              <p class="file-help" id="files-help"></p>
+              <p id="reference-status" class="file-help" role="status"></p><ul id="reference-list" class="reference-list"></ul>
+            </div>
+            <details class="h3-guide" id="h3-guide"><summary>MiniMax H3 提示指南</summary><p id="prompt-guide-notes"></p><button id="insert-prompt-template" class="secondary" type="button">插入目前模式的提示模板</button><ul id="prompt-sources"></ul></details>
+            <div class="composer-actions"><span class="save-indicator" id="draft-status">草稿自動保留於此裝置</span><button id="save-job" type="submit" class="add-job">加入工作清單 <span>↗</span></button></div><p class="creator-status" id="job-status" role="status" aria-live="polite"></p>
+          </form>
+          <!-- admin-only --><dialog id="script-lab-editor" class="script-lab-editor result-dialog" aria-labelledby="script-lab-editor-title">
+            <header class="result-dialog-head">
+              <h3 id="script-lab-editor-title">管理自訂靈感</h3>
+              <button id="script-lab-close" class="icon-button" type="button" aria-label="關閉靈感庫管理">×</button>
+            </header>
+            <div class="script-lab-editor-body">
+              <label class="script-lab-entry-picker">編輯條目<select id="script-lab-entries"><option value="">新增條目</option></select></label>
+              <form id="script-lab-entry-form">
+                <label>上架到<select name="library">__SCRIPT_LAB_OPTIONS__</select></label>
+                <div class="script-lab-entry-fields">
+                  <label>分組<input name="group" maxlength="40" placeholder="例如：台灣奇幻"></label>
+                  <label>標題<input name="label" maxlength="100" required></label>
+                </div>
+                <label>劇本文字<textarea name="text" maxlength="12000" rows="7" required></textarea></label>
+                <div class="script-lab-entry-actions">
+                  <button class="subtle-button" type="submit" value="save">儲存草稿</button>
+                  <button class="subtle-button" id="script-lab-unpublish" type="button" hidden>下架</button>
+                  <button class="deploy" type="submit" value="publish">上架</button>
+                </div>
+              </form>
+              <p id="script-lab-editor-status" class="script-lab-status" role="status"></p>
+            </div>
+          </dialog><!-- /admin-only -->
+          <div class="queue-head" id="queue"><div><strong>待送工作</strong><span id="job-count">0 項</span></div><!-- admin-only --><button type="button" id="export-jobs" disabled>下載工作包</button><!-- /admin-only --></div><div id="job-list" class="job-list"><p class="queue-empty">尚無工作，先在上方加入一項創作。</p></div><p class="file-help">同步到工作室後，即可從工作紀錄選取並送出。</p>
+        </section><!-- admin-only --><div class="environment-grid" data-show-on="compute"><section class="panel" id="gpu"><div class="panel-title"><div><span class="step-num">02 / COMPUTE</span><h3>選擇下次啟動的 GPU</h3><p>運算狀態會顯示目前申請的卡型，實際配發由 Colab 決定。</p></div><span class="tiny-label">NVIDIA GPU</span></div>
+          <div class="gpus" role="group" aria-label="選擇 GPU">
+            <button class="gpu selected" type="button" data-gpu="L4" aria-pressed="true"><div class="gpu-top"><span class="gpu-name">L4</span><span class="gpu-tag">推薦起步</span></div><div class="gpu-sub">日常測試・節省額度</div><div class="gpu-cost">約 1.5 <small>CU / 小時</small></div><span class="gpu-check" aria-hidden="true"></span></button>
+            <button class="gpu" type="button" data-gpu="G4" aria-pressed="false"><div class="gpu-top"><span class="gpu-name">G4</span><span class="gpu-tag">高效創作</span></div><div class="gpu-sub">RTX PRO 6000 · 96 GB VRAM</div><div class="gpu-cost">約 11 <small>CU / 小時</small></div><span class="gpu-check" aria-hidden="true"></span></button>
+            <button class="gpu" type="button" data-gpu="A100" aria-pressed="false"><div class="gpu-top"><span class="gpu-name">A100</span></div><div class="gpu-sub">40 或 80 GB VRAM</div><div class="gpu-cost">費率待查 <small>／可能較高</small></div><span class="gpu-check" aria-hidden="true"></span></button>
+            <button class="gpu" type="button" data-gpu="H100" aria-pressed="false"><div class="gpu-top"><span class="gpu-name">H100</span></div><div class="gpu-sub">進階運算資源</div><div class="gpu-cost">費率待查 <small>／可能較高</small></div><span class="gpu-check" aria-hidden="true"></span></button>
+          </div><p class="footnote">L4／G4 的費率參考原作者估算，可能隨方案與實際執行階段改變。GPU 選項不代表目前一定可用。</p>
+        </section><section class="panel" id="options"><div class="panel-title"><div><span class="step-num">03 / PREFERENCES</span><h3>設定創作環境</h3><p>部署前決定模型與閒置規則。</p></div></div>
+          <div class="option-row" id="high-memory-option" hidden><div><strong>A100 高 RAM</strong><p>向 Colab 申請較大的主機記憶體，實際規格以配發結果為準。</p></div><button class="switch" id="high-memory" role="switch" aria-label="A100 高 RAM" aria-checked="false" type="button"></button></div><div class="option-row"><div><strong>啟用圖片生成模型</strong><p>提供生圖、改圖功能，預估多需約 10 GB 模型空間。</p></div><button class="switch" id="pictures" role="switch" aria-label="啟用圖片生成模型" aria-checked="false" type="button"></button></div>
+          <div class="option-row"><div><strong>模型讀取方式</strong><p>優先使用雲端硬碟的模型快取；實際速度需要測試。</p></div><select class="select" id="cache" aria-label="模型讀取方式"><option value="drive-first">優先 Drive</option><option value="source-first">優先原始來源</option></select></div>
+          <div class="option-row"><div><strong>閒置自動釋放</strong><p>預設 15 分鐘；待命時依實際操作計時，關閉網頁仍會自動釋放。</p></div><select class="select" id="idle" aria-label="閒置自動釋放"><option value="0">立即關閉</option><option value="5">5 分鐘</option><option value="15" selected>15 分鐘</option><option value="30">30 分鐘</option><option value="60">60 分鐘</option></select></div>
+        </section></div><!-- /admin-only --><section class="panel" id="storage" data-show-on="storage" aria-labelledby="storage-title">
+<div class="panel-title"><div><h3 id="storage-title">作品儲存藝廊</h3></div><span class="session-tag" id="saved-count">0 件作品</span></div>
+<p class="queue-empty" id="results-empty">完成生成後，作品會顯示在這裡。</p>
+<div class="saved-results" id="saved-results"></div>
+<dialog id="result-dialog" class="result-dialog" aria-labelledby="result-dialog-title">
+  <header class="result-dialog-head"><h3 id="result-dialog-title">作品</h3><button id="result-dialog-close" class="icon-button" type="button" aria-label="關閉作品" autofocus>×</button></header>
+  <div id="result-dialog-content"></div>
+</dialog>
+</section><section class="panel history-panel" id="history" data-show-on="history"><div class="panel-title"><div><span class="step-num">YOUR CREATIVE TRAIL</span><h3>雲端工作紀錄</h3><p>已儲存的創作工作與生成狀態。</p></div><button id="refresh-history" class="subtle-button" type="button">重新整理 ↻</button></div><div id="cloud-jobs" class="cloud-jobs"><p class="queue-empty">正在讀取工作紀錄……</p></div></section>
+<!-- admin-only --><section class="panel" id="generation-queue" data-show-on="queue">
+  <div class="panel-title"><div><h3>等待生成</h3><p id="queue-count"></p></div><button id="clear-generation-queue" class="subtle-button queue-remove" type="button" disabled>全部刪除</button></div>
+  <p id="queue-message" class="runtime-message" role="status"></p>
+  <div id="generation-queue-items" class="cloud-jobs"><p class="queue-empty">正在讀取排隊項目……</p></div>
+</section><!-- /admin-only -->
+</div><div class="control-column" data-show-on="create compute history queue"><!-- admin-only --><aside class="panel summary" data-show-on="compute" aria-label="運算控制台"><div class="panel-title"><div><span class="step-num">CONTROL ROOM</span><h3>運算控制台</h3><p>選好 GPU，再啟動你的創作環境。</p></div></div><div class="connection-bar"><span class="dot"></span><strong id="connection-status">檢查連線中</strong><button type="button" id="refresh-connection" aria-label="重新檢查連線">↻</button></div><div class="summary-line"><span>運算資源</span><strong class="highlight" id="summary-gpu">L4 GPU</strong></div><div class="summary-line"><span>影片預設解析度</span><strong id="summary-res">480P</strong></div><div class="summary-line"><span>圖片生成</span><strong id="summary-pictures">未啟用</strong></div><div class="summary-line"><span>模型讀取</span><strong id="summary-cache">優先 Drive</strong></div><div class="summary-line"><span>閒置保留</span><strong id="summary-idle">15 分鐘</strong></div>
+        <section class="gpu-clock" id="gpu-clock" aria-labelledby="gpu-clock-title">
+          <div class="gpu-clock-header">
+            <h4 id="gpu-clock-title">GPU 計時</h4>
+            <span id="gpu-clock-status" role="status">尚未啟動</span>
+          </div>
+          <dl class="gpu-clock-values">
+            <div><dt>已運行</dt><dd id="gpu-clock-elapsed">—</dd></div>
+            <div><dt>距上限</dt><dd id="gpu-clock-remaining">—</dd></div>
+          </dl>
+          <label class="range-head" for="runtime-minutes"><span>GPU 運行上限</span><select id="runtime-minutes" class="select" aria-describedby="runtime-limit-help"><option value="0">Colab 預設</option><option value="30">30 分鐘</option><option value="60">1 小時</option><option value="90">1.5 小時</option><option value="120">2 小時</option><option value="180">3 小時</option><option value="240">4 小時</option><option value="300">5 小時</option><option value="360">6 小時</option></select></label><p class="estimate-note" id="runtime-limit-help">設定於下次啟動時套用。從 GPU 配發起計時，閒置時可提早釋放。</p>
+        </section>
+        <div class="budget-box"><div class="budget-title"><span>參考剩餘額度</span><label class="budget-input"><input id="balance" type="number" min="0" max="99999" step="0.1" value="400" aria-label="手動輸入參考剩餘 CU"> CU</label></div><div class="estimate"><span>預估使用</span><strong id="estimate">0.75 <small>CU</small></strong></div><p class="estimate-note" id="estimate-note">使用 1.5 CU／小時計算；額度由您手動輸入，並非即時資料。</p></div>
+        <div class="google-connect"><button id="google-connect" class="secondary" type="button">連接 Google 帳號</button><span id="google-account" class="file-help"></span></div><form id="google-auth-form" class="google-auth" hidden><p>1. 在 Google 完成授權。使用 Google Colab CLI 的官方授權流程，不會立即啟動 GPU。</p><a id="google-auth-link" class="secondary" target="_blank" rel="noopener noreferrer">開啟 Google 授權</a><label for="google-auth-code">2. 貼上 Google 授權碼或完整回傳網址</label><input id="google-auth-code" type="password" autocomplete="off" spellcheck="false" placeholder="貼上授權碼或網址" required><button class="secondary" id="google-auth-submit" type="submit">完成連接</button><p class="file-help">若 Google 授權後的頁面無法載入，請複製該頁網址列的完整網址，貼到這裡。連接請在 10 分鐘內完成。</p></form><div id="live-usage" class="file-help" aria-live="polite"></div><button class="deploy" id="deploy-runtime" type="button" disabled aria-describedby="deploy-note">啟動所選 GPU <span>↗</span></button><button class="stop-runtime" id="stop-runtime" type="button" hidden>停止並釋放 GPU</button><a class="secondary" id="drive-access" href="#drive-auth" hidden>前往 Drive 授權</a><p class="disabled-note" id="deploy-note">正在檢查 Google 連線狀態……</p><button class="secondary" id="export" type="button">下載設定草稿</button><p class="local-note">連接帳號不啟動 GPU；按下啟動後才開始使用 Colab 資源。</p>
+      </aside><!-- /admin-only --><section class="session-panel panel"><div class="panel-title"><div><span class="step-num">LIVE SESSION</span><h3>生成狀態</h3></div><span id="runtime-stage" class="session-tag">尚未啟動</span></div><div id="runtime-message" class="runtime-message" role="status" aria-live="polite">正在讀取創作服務狀態。</div><!-- admin-only --><p id="runtime-memory" class="file-help" hidden></p><button id="retry-assignment" class="secondary" type="button" hidden>重試這筆 GPU 申請</button><div id="drive-auth" hidden><p>GPU 已啟動。請在 Google 確認 Drive 存取權，再回到鳥巢H3大師。若仍顯示等待，可按下方按鈕重新確認。</p><a id="drive-auth-link" target="_blank" rel="noopener noreferrer">開啟 Google Drive 授權</a><button id="drive-resume" type="button">重新確認 Drive 授權</button></div><!-- /admin-only --><div class="cloud-actions" data-show-on="create history"><button id="sync-jobs" class="secondary" type="button">同步工作至網站</button><button id="run-jobs" class="deploy" type="button" disabled>送出待處理工作 ↗</button></div><section id="generation-progress" class="generation-progress" hidden aria-label="生成進度"><h4>生成進度</h4><ol id="generation-stages"></ol><div id="generation-detail"></div><div id="generation-items"></div></section><!-- admin-only --><pre id="runtime-log" aria-label="執行紀錄" hidden></pre><p class="file-help">作品與模型預設保存至 Drive「Colab H3」。</p><!-- /admin-only --></section><div class="studio-note" data-show-on="create"><span>✳</span><p>讓技術安靜地工作，<br>讓想像大聲一點。</p></div></div></div>
+      <footer class="footer"><span>鳥巢H3大師 <b>© 2026</b></span><span>HUMAN IMAGINATION. MACHINE POSSIBILITIES.</span><a href="#overview">BACK TO TOP ↑</a><p class="footer-credit">感謝<strong><a href="https://github.com/dseditor" target="_blank" rel="noopener noreferrer">松音</a></strong>無私分享，提供完整工作流。</p></footer>
+</main></div></div><div id="toast" class="toast" role="status" hidden></div>
+<!-- admin-only --><script src="/settings.js"></script><script src="/gpu-clock.js"></script><!-- /admin-only --><script defer src="/hero-aurora.js"></script><script src="/media-previews.js"></script><script type="module" src="/workspace.js"></script><!-- admin-only --><script type="module" src="/script-lab-editor.js"></script><!-- /admin-only --><script src="/video-editor.js"></script><script src="/results.js"></script><script src="/workspace-navigation.js"></script><script src="/control.js"></script><!-- admin-only --><script src="/generation-queue.js"></script><!-- /admin-only -->
+</body></html>
